@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TP Final - HTML en globalité">
+    <title>HTML en globalité</title>
+    <link rel="icon" href="image/html.svg" />
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML dans sa globalité</h1>
+
+    </header>
+
+
+    <article>
+
+        <div>
+            <h2>Bonjour!</h2>
+
+            <p>Je m'appel <strong>Joël Vigreux</strong>, j'ai <strong>21 ans</strong> et je vis actuellement à
+                <strong>Vauxrezis</strong> dans le 02. <br>
+                J'aime beaucoup la <strong>nature</strong> et le <strong>vélo</strong>
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h2>Mon parcours</h2>
+
+            <ul>
+
+                <li>Titre professionnel développeur web / Depuis Août 2021
+                </li>
+
+                <li>Bac professionnel Technicien Conseil-Vente en Animalerie) / Septembre 2016 à Juin 2019
+                </li>
+
+                <li>Brevet d'Etudes Professionnelles Agricoles (BEPA) / Septembre 2016 à Juin 2018
+                </li>
+            </ul>
+        </div>
+        <hr>
+
+        <div>
+            <h2>Me contacter</h2>
+
+            <p>
+                <a href="mailto:vigreux.joel@hotmail.com" rel="nofollow" title="redirection vers mon email"> e-mail
+                </a>
+                &#160;
+                <a href="tel:33+617110715" rel="nofollow" title="mon numéro de téléphone"> téléphone </a>
+            </p>
+
+            <h3>Formulaire de contact</h3>
+
+            <form action="test.php" method="POST">
+            
+                <label for="homme">Homme &#9794;</label>
+                <input type="radio" id="homme" name="genre" checked>
+                <br>
+                <label for="femme">Femme &#9792;</label>
+                <input type="radio" id="femme" name="genre">
+                <br>
+            
+                <br>
+                <label for="age">Age: </label>
+                <input type="number" id="age" name="age" placeholder="ex: 52" required>
+                <label for="age">ans</label>
+                <br>
+            
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="ex: prenom@domain.com" required>
+                <br>
+            
+                <br>
+                <label for="sujet">Sujet: </label>
+                <select name="sujet" id="sujet">
+                    <optgroup label="Default">
+                        <option value="a1">Choisissez</option>
+                    </optgroup>
+                    <optgroup label="Catégorie n°1">
+                        <option value="a1">valeur n°1</option>
+                        <option value="a2">valeur n°2</option>
+                    </optgroup>
+                    <optgroup label="Catégorie n°2">
+                        <option value="b1">valeur n°1</option>
+                        <option value="b2">valeur n°2</option>
+                    </optgroup>
+                </select>
+                <br>
+            
+                <br>
+                <label for="message">Votre message:</label>
+                <br>
+                <textarea placeholder="ex: Madame, Monsieur ..." id="message" name="message" rows="4" cols="50" required></textarea>
+                <br>
+
+                <br>
+                <input type="checkbox" id="accepter" name="accepter" required>
+                <label for="accepter">
+                    En cochant cette case j'accepte les conditions relatives à<br> 
+                    l'utilisation de mes données personnelles décrite dans les <br>
+                    <a href="https://example.com/" target="_blank" title="redirection vers les mentions légales"> mentions légales</a>
+                </label>
+                <br><br>
+
+                <input type="submit" value="Envoyer le message">
+            
+            </form>
+
+        </div>
+
+        <h2>Mes compétences en web</h2>
+        <div>
+        
+            <table border="1px">
+                <tr>
+                    <th>Technologie</th>
+                    <th>Débutant</th>
+                    <th>Moyen</th>
+                    <th>Bon</th>
+                    <th>Expert</th>
+                </tr>
+                <tr>
+                    <td><img src="image/html.svg" alt="HTML"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><img src="image/css.svg" alt="CSS"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><img src="image/js.svg" alt="JS"></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="image/php.svg" alt="PHP"></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="image/sql.svg" alt="SQL"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </article>
+
+    <br>
+    <iframe width="618" height="348" src="https://www.youtube.com/embed/8FqZZrbnwkM" title="YouTube video player" ></iframe>
+
+    <footer>
+        <p>Ceci est mon pied de page</p>
+    </footer>
+
+</body>
+
+</html>
